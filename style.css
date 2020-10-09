@@ -28,7 +28,7 @@ body {
       hsl(293, 100%, 63%) 100%
    );
    color: #fff;
-   padding: 25px;
+   padding: 10px 10px;
    border-radius: 35px 35px 0 0;
    padding-top: 30px;
    position: relative;
@@ -75,7 +75,7 @@ body {
 /*! chat-container */
 
 .chat-container {
-   padding: 15px;
+   padding: 10px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -83,7 +83,6 @@ body {
 
 .chat-container p {
    font-size: 12px;
-   font-weight: 400;
 }
 .chat-container img {
    width: 65px;
@@ -104,7 +103,7 @@ body {
    display: flex;
    flex-direction: column;
    align-items: flex-end;
-   margin-bottom: 15px;
+   margin-bottom: 10px;
 }
 .chat-right {
    text-align: right;
@@ -126,6 +125,7 @@ body {
    color: hsl(276, 55%, 52%);
    width: 200px;
    padding: 10px;
+   margin: 5px;
    border-radius: 13px 13px 13px 5px;
 }
 
@@ -145,15 +145,16 @@ body {
 
 .chat-time {
    justify-content: space-between;
-   padding: 15px 15px;
+   padding: 13px 13px;
 }
 .chat-time h4 {
    margin: 0;
+   font-size: 16px;
 }
 .chat-time p {
    margin: 0;
    opacity: 0.7;
-   font-size: 12px;
+   font-size: 16px;
 }
 
 input {
